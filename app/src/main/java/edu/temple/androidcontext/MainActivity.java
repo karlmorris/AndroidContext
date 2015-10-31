@@ -29,6 +29,7 @@ public class MainActivity extends Activity {
                 ImageView image = new ImageView(MainActivity.this);
                 ll.addView(image);
 
+                // Image loader singleton with global context
                 ImageLoader.getInstance().displayImage(imageURL.getText().toString(), image);
             }
         });
