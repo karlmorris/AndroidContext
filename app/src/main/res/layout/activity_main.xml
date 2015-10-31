@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageURL"
-        android:text="http://lorempixel.com/400/200/"
+        android:text="http://lorempixel.com/800/400/"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
