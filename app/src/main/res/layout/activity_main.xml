@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageURL"
-        android:text="http://lorempixel.com/400/200/"
+        android:text="http://lorempixel.com/800/400/"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -34,4 +34,14 @@
             android:orientation="vertical"
             android:id="@+id/imageContainer"/>
     </ScrollView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caching"
+        android:id="@+id/checkBox"
+        android:checked="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
